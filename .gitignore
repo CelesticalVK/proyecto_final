@@ -12,7 +12,8 @@ build/
 develop-eggs/
 dist/
 downloads/
-eggs/
+eggs
+env/
 .eggs/
 lib/
 lib64/
@@ -169,3 +170,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Archivos del sistema (Mac y Windows)
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales de Python
+venv/
+__pycache__/
+
+# Logs y archivos temporales
+logs/
